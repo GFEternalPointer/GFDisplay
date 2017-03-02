@@ -1,0 +1,637 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		183305031E10D910003CFD3E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 183305021E10D910003CFD3E /* main.m */; };
+		183305061E10D910003CFD3E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 183305051E10D910003CFD3E /* AppDelegate.m */; };
+		1833050C1E10D910003CFD3E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1833050A1E10D910003CFD3E /* Main.storyboard */; };
+		1833050E1E10D910003CFD3E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1833050D1E10D910003CFD3E /* Assets.xcassets */; };
+		183305111E10D910003CFD3E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1833050F1E10D910003CFD3E /* LaunchScreen.storyboard */; };
+		1833051C1E10D910003CFD3E /* GFDisplayTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1833051B1E10D910003CFD3E /* GFDisplayTests.m */; };
+		183305271E10D910003CFD3E /* GFDisplayUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 183305261E10D910003CFD3E /* GFDisplayUITests.m */; };
+		183305391E10DAD3003CFD3E /* UIView+GFFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 183305381E10DAD3003CFD3E /* UIView+GFFrame.m */; };
+		1833053F1E10DBAA003CFD3E /* GFDisplayTitleLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1833053E1E10DBAA003CFD3E /* GFDisplayTitleLabel.m */; };
+		183305421E10DC43003CFD3E /* GFDisplayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 183305411E10DC43003CFD3E /* GFDisplayViewController.m */; };
+		183305461E10DE37003CFD3E /* GFFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 183305451E10DE37003CFD3E /* GFFlowLayout.m */; };
+		1833054A1E10E0EB003CFD3E /* RequesCover.m in Sources */ = {isa = PBXBuildFile; fileRef = 183305481E10E0EB003CFD3E /* RequesCover.m */; };
+		1833054B1E10E0EB003CFD3E /* RequesCover.xib in Resources */ = {isa = PBXBuildFile; fileRef = 183305491E10E0EB003CFD3E /* RequesCover.xib */; };
+		1833054E1E10E276003CFD3E /* GFMainTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1833054D1E10E276003CFD3E /* GFMainTableViewController.m */; };
+		183305551E10E3C5003CFD3E /* GFTXViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 183305541E10E3C5003CFD3E /* GFTXViewController.m */; };
+		183305591E10E459003CFD3E /* ChildViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 183305581E10E459003CFD3E /* ChildViewController.m */; };
+		1833055C1E10E46B003CFD3E /* FullChildViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1833055B1E10E46B003CFD3E /* FullChildViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		183305181E10D910003CFD3E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 183304F61E10D910003CFD3E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 183304FD1E10D910003CFD3E;
+			remoteInfo = GFDisplay;
+		};
+		183305231E10D910003CFD3E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 183304F61E10D910003CFD3E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 183304FD1E10D910003CFD3E;
+			remoteInfo = GFDisplay;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		183304FE1E10D910003CFD3E /* GFDisplay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GFDisplay.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		183305021E10D910003CFD3E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		183305041E10D910003CFD3E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		183305051E10D910003CFD3E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1833050B1E10D910003CFD3E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1833050D1E10D910003CFD3E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		183305101E10D910003CFD3E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		183305121E10D910003CFD3E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		183305171E10D910003CFD3E /* GFDisplayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GFDisplayTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1833051B1E10D910003CFD3E /* GFDisplayTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GFDisplayTests.m; sourceTree = "<group>"; };
+		1833051D1E10D910003CFD3E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		183305221E10D910003CFD3E /* GFDisplayUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GFDisplayUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		183305261E10D910003CFD3E /* GFDisplayUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GFDisplayUITests.m; sourceTree = "<group>"; };
+		183305281E10D910003CFD3E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		183305371E10DAD3003CFD3E /* UIView+GFFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+GFFrame.h"; sourceTree = "<group>"; };
+		183305381E10DAD3003CFD3E /* UIView+GFFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+GFFrame.m"; sourceTree = "<group>"; };
+		1833053D1E10DBAA003CFD3E /* GFDisplayTitleLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GFDisplayTitleLabel.h; sourceTree = "<group>"; };
+		1833053E1E10DBAA003CFD3E /* GFDisplayTitleLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GFDisplayTitleLabel.m; sourceTree = "<group>"; };
+		183305401E10DC43003CFD3E /* GFDisplayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GFDisplayViewController.h; sourceTree = "<group>"; };
+		183305411E10DC43003CFD3E /* GFDisplayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GFDisplayViewController.m; sourceTree = "<group>"; };
+		183305431E10DDEB003CFD3E /* GFDisplayViewHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GFDisplayViewHeader.h; sourceTree = "<group>"; };
+		183305441E10DE37003CFD3E /* GFFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GFFlowLayout.h; sourceTree = "<group>"; };
+		183305451E10DE37003CFD3E /* GFFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GFFlowLayout.m; sourceTree = "<group>"; };
+		183305471E10E0EB003CFD3E /* RequesCover.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RequesCover.h; sourceTree = "<group>"; };
+		183305481E10E0EB003CFD3E /* RequesCover.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RequesCover.m; sourceTree = "<group>"; };
+		183305491E10E0EB003CFD3E /* RequesCover.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RequesCover.xib; sourceTree = "<group>"; };
+		1833054C1E10E276003CFD3E /* GFMainTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GFMainTableViewController.h; sourceTree = "<group>"; };
+		1833054D1E10E276003CFD3E /* GFMainTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GFMainTableViewController.m; sourceTree = "<group>"; };
+		183305531E10E3C5003CFD3E /* GFTXViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GFTXViewController.h; sourceTree = "<group>"; };
+		183305541E10E3C5003CFD3E /* GFTXViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GFTXViewController.m; sourceTree = "<group>"; };
+		183305571E10E459003CFD3E /* ChildViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChildViewController.h; sourceTree = "<group>"; };
+		183305581E10E459003CFD3E /* ChildViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChildViewController.m; sourceTree = "<group>"; };
+		1833055A1E10E46B003CFD3E /* FullChildViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FullChildViewController.h; sourceTree = "<group>"; };
+		1833055B1E10E46B003CFD3E /* FullChildViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FullChildViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		183304FB1E10D910003CFD3E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		183305141E10D910003CFD3E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1833051F1E10D910003CFD3E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		183304F51E10D910003CFD3E = {
+			isa = PBXGroup;
+			children = (
+				183305001E10D910003CFD3E /* GFDisplay */,
+				1833051A1E10D910003CFD3E /* GFDisplayTests */,
+				183305251E10D910003CFD3E /* GFDisplayUITests */,
+				183304FF1E10D910003CFD3E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		183304FF1E10D910003CFD3E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				183304FE1E10D910003CFD3E /* GFDisplay.app */,
+				183305171E10D910003CFD3E /* GFDisplayTests.xctest */,
+				183305221E10D910003CFD3E /* GFDisplayUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		183305001E10D910003CFD3E /* GFDisplay */ = {
+			isa = PBXGroup;
+			children = (
+				183305361E10DA38003CFD3E /* Main */,
+				183305351E10DA21003CFD3E /* GFDisplayViewController */,
+				183305341E10D99B003CFD3E /* 蒙版 */,
+				1833054F1E10E364003CFD3E /* 腾讯视频 */,
+				183305561E10E436003CFD3E /* TableViewController */,
+				183305041E10D910003CFD3E /* AppDelegate.h */,
+				183305051E10D910003CFD3E /* AppDelegate.m */,
+				1833050A1E10D910003CFD3E /* Main.storyboard */,
+				1833050D1E10D910003CFD3E /* Assets.xcassets */,
+				1833050F1E10D910003CFD3E /* LaunchScreen.storyboard */,
+				183305121E10D910003CFD3E /* Info.plist */,
+				183305011E10D910003CFD3E /* Supporting Files */,
+			);
+			path = GFDisplay;
+			sourceTree = "<group>";
+		};
+		183305011E10D910003CFD3E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				183305021E10D910003CFD3E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1833051A1E10D910003CFD3E /* GFDisplayTests */ = {
+			isa = PBXGroup;
+			children = (
+				1833051B1E10D910003CFD3E /* GFDisplayTests.m */,
+				1833051D1E10D910003CFD3E /* Info.plist */,
+			);
+			path = GFDisplayTests;
+			sourceTree = "<group>";
+		};
+		183305251E10D910003CFD3E /* GFDisplayUITests */ = {
+			isa = PBXGroup;
+			children = (
+				183305261E10D910003CFD3E /* GFDisplayUITests.m */,
+				183305281E10D910003CFD3E /* Info.plist */,
+			);
+			path = GFDisplayUITests;
+			sourceTree = "<group>";
+		};
+		183305341E10D99B003CFD3E /* 蒙版 */ = {
+			isa = PBXGroup;
+			children = (
+				183305471E10E0EB003CFD3E /* RequesCover.h */,
+				183305481E10E0EB003CFD3E /* RequesCover.m */,
+				183305491E10E0EB003CFD3E /* RequesCover.xib */,
+			);
+			path = "蒙版";
+			sourceTree = "<group>";
+		};
+		183305351E10DA21003CFD3E /* GFDisplayViewController */ = {
+			isa = PBXGroup;
+			children = (
+				183305371E10DAD3003CFD3E /* UIView+GFFrame.h */,
+				183305381E10DAD3003CFD3E /* UIView+GFFrame.m */,
+				1833053D1E10DBAA003CFD3E /* GFDisplayTitleLabel.h */,
+				1833053E1E10DBAA003CFD3E /* GFDisplayTitleLabel.m */,
+				183305401E10DC43003CFD3E /* GFDisplayViewController.h */,
+				183305411E10DC43003CFD3E /* GFDisplayViewController.m */,
+				183305431E10DDEB003CFD3E /* GFDisplayViewHeader.h */,
+				183305441E10DE37003CFD3E /* GFFlowLayout.h */,
+				183305451E10DE37003CFD3E /* GFFlowLayout.m */,
+			);
+			path = GFDisplayViewController;
+			sourceTree = "<group>";
+		};
+		183305361E10DA38003CFD3E /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				1833054C1E10E276003CFD3E /* GFMainTableViewController.h */,
+				1833054D1E10E276003CFD3E /* GFMainTableViewController.m */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		1833054F1E10E364003CFD3E /* 腾讯视频 */ = {
+			isa = PBXGroup;
+			children = (
+				183305531E10E3C5003CFD3E /* GFTXViewController.h */,
+				183305541E10E3C5003CFD3E /* GFTXViewController.m */,
+			);
+			path = "腾讯视频";
+			sourceTree = "<group>";
+		};
+		183305561E10E436003CFD3E /* TableViewController */ = {
+			isa = PBXGroup;
+			children = (
+				183305571E10E459003CFD3E /* ChildViewController.h */,
+				183305581E10E459003CFD3E /* ChildViewController.m */,
+				1833055A1E10E46B003CFD3E /* FullChildViewController.h */,
+				1833055B1E10E46B003CFD3E /* FullChildViewController.m */,
+			);
+			path = TableViewController;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		183304FD1E10D910003CFD3E /* GFDisplay */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1833052B1E10D910003CFD3E /* Build configuration list for PBXNativeTarget "GFDisplay" */;
+			buildPhases = (
+				183304FA1E10D910003CFD3E /* Sources */,
+				183304FB1E10D910003CFD3E /* Frameworks */,
+				183304FC1E10D910003CFD3E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GFDisplay;
+			productName = GFDisplay;
+			productReference = 183304FE1E10D910003CFD3E /* GFDisplay.app */;
+			productType = "com.apple.product-type.application";
+		};
+		183305161E10D910003CFD3E /* GFDisplayTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1833052E1E10D910003CFD3E /* Build configuration list for PBXNativeTarget "GFDisplayTests" */;
+			buildPhases = (
+				183305131E10D910003CFD3E /* Sources */,
+				183305141E10D910003CFD3E /* Frameworks */,
+				183305151E10D910003CFD3E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				183305191E10D910003CFD3E /* PBXTargetDependency */,
+			);
+			name = GFDisplayTests;
+			productName = GFDisplayTests;
+			productReference = 183305171E10D910003CFD3E /* GFDisplayTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		183305211E10D910003CFD3E /* GFDisplayUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 183305311E10D910003CFD3E /* Build configuration list for PBXNativeTarget "GFDisplayUITests" */;
+			buildPhases = (
+				1833051E1E10D910003CFD3E /* Sources */,
+				1833051F1E10D910003CFD3E /* Frameworks */,
+				183305201E10D910003CFD3E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				183305241E10D910003CFD3E /* PBXTargetDependency */,
+			);
+			name = GFDisplayUITests;
+			productName = GFDisplayUITests;
+			productReference = 183305221E10D910003CFD3E /* GFDisplayUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		183304F61E10D910003CFD3E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = apple;
+				TargetAttributes = {
+					183304FD1E10D910003CFD3E = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Manual;
+					};
+					183305161E10D910003CFD3E = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = A3S3WKJVTX;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 183304FD1E10D910003CFD3E;
+					};
+					183305211E10D910003CFD3E = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = A3S3WKJVTX;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 183304FD1E10D910003CFD3E;
+					};
+				};
+			};
+			buildConfigurationList = 183304F91E10D910003CFD3E /* Build configuration list for PBXProject "GFDisplay" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 183304F51E10D910003CFD3E;
+			productRefGroup = 183304FF1E10D910003CFD3E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				183304FD1E10D910003CFD3E /* GFDisplay */,
+				183305161E10D910003CFD3E /* GFDisplayTests */,
+				183305211E10D910003CFD3E /* GFDisplayUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		183304FC1E10D910003CFD3E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1833054B1E10E0EB003CFD3E /* RequesCover.xib in Resources */,
+				183305111E10D910003CFD3E /* LaunchScreen.storyboard in Resources */,
+				1833050E1E10D910003CFD3E /* Assets.xcassets in Resources */,
+				1833050C1E10D910003CFD3E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		183305151E10D910003CFD3E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		183305201E10D910003CFD3E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		183304FA1E10D910003CFD3E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				183305061E10D910003CFD3E /* AppDelegate.m in Sources */,
+				1833053F1E10DBAA003CFD3E /* GFDisplayTitleLabel.m in Sources */,
+				183305461E10DE37003CFD3E /* GFFlowLayout.m in Sources */,
+				183305031E10D910003CFD3E /* main.m in Sources */,
+				1833055C1E10E46B003CFD3E /* FullChildViewController.m in Sources */,
+				183305421E10DC43003CFD3E /* GFDisplayViewController.m in Sources */,
+				1833054A1E10E0EB003CFD3E /* RequesCover.m in Sources */,
+				183305551E10E3C5003CFD3E /* GFTXViewController.m in Sources */,
+				183305591E10E459003CFD3E /* ChildViewController.m in Sources */,
+				183305391E10DAD3003CFD3E /* UIView+GFFrame.m in Sources */,
+				1833054E1E10E276003CFD3E /* GFMainTableViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		183305131E10D910003CFD3E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1833051C1E10D910003CFD3E /* GFDisplayTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1833051E1E10D910003CFD3E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				183305271E10D910003CFD3E /* GFDisplayUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		183305191E10D910003CFD3E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 183304FD1E10D910003CFD3E /* GFDisplay */;
+			targetProxy = 183305181E10D910003CFD3E /* PBXContainerItemProxy */;
+		};
+		183305241E10D910003CFD3E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 183304FD1E10D910003CFD3E /* GFDisplay */;
+			targetProxy = 183305231E10D910003CFD3E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1833050A1E10D910003CFD3E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1833050B1E10D910003CFD3E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1833050F1E10D910003CFD3E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				183305101E10D910003CFD3E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		183305291E10D910003CFD3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1833052A1E10D910003CFD3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1833052C1E10D910003CFD3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = GFDisplay/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = gf.displlay.tx.GFDisplay;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1833052D1E10D910003CFD3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = GFDisplay/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = gf.displlay.tx.GFDisplay;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1833052F1E10D910003CFD3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = A3S3WKJVTX;
+				INFOPLIST_FILE = GFDisplayTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = gf.displlay.tx.GFDisplayTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GFDisplay.app/GFDisplay";
+			};
+			name = Debug;
+		};
+		183305301E10D910003CFD3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = A3S3WKJVTX;
+				INFOPLIST_FILE = GFDisplayTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = gf.displlay.tx.GFDisplayTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GFDisplay.app/GFDisplay";
+			};
+			name = Release;
+		};
+		183305321E10D910003CFD3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = A3S3WKJVTX;
+				INFOPLIST_FILE = GFDisplayUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = gf.displlay.tx.GFDisplayUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GFDisplay;
+			};
+			name = Debug;
+		};
+		183305331E10D910003CFD3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = A3S3WKJVTX;
+				INFOPLIST_FILE = GFDisplayUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = gf.displlay.tx.GFDisplayUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GFDisplay;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		183304F91E10D910003CFD3E /* Build configuration list for PBXProject "GFDisplay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				183305291E10D910003CFD3E /* Debug */,
+				1833052A1E10D910003CFD3E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1833052B1E10D910003CFD3E /* Build configuration list for PBXNativeTarget "GFDisplay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1833052C1E10D910003CFD3E /* Debug */,
+				1833052D1E10D910003CFD3E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1833052E1E10D910003CFD3E /* Build configuration list for PBXNativeTarget "GFDisplayTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1833052F1E10D910003CFD3E /* Debug */,
+				183305301E10D910003CFD3E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		183305311E10D910003CFD3E /* Build configuration list for PBXNativeTarget "GFDisplayUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				183305321E10D910003CFD3E /* Debug */,
+				183305331E10D910003CFD3E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 183304F61E10D910003CFD3E /* Project object */;
+}
